@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --primary-gray-light: #f7fafc;
+    --primary-gray: #EDF2F7;
+    --secondory-gray : #A3AED0;
+    --secondar-gray-dark: #A3AED0;
+    --customer-gray-400 :#A0AEC0;
+    --custom-gray-600 : #718096;
+    --customer-green: #38A169;
+    --primary-blue: #322659;
+    font-family: "inter";
+}

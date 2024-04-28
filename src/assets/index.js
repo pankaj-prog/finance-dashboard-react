@@ -1,0 +1,15 @@
+export { default as DashboardIcon } from "./dashboard_icon.png";
+export { default as OrganisationIcon } from "./organisation_icon.png";
+export { default as DocumentsIcon } from "./documents_icon.png";
+export { default as ReportsIcon } from "./reports_icon.png";
+export { default as Logo } from "./logo_1.png";
+export { default as BankingIcon } from "./banking_icon.png";
+export { default as AccountingIcon } from "./accounting_icon.png";
+export { default as SalesIcon } from "./sales_icon.png";
+export { default as PurchasesIcon } from "./purchases_icon.png";
+export { default as AvatarIcon } from "./avatar.png";
+export { default as Post } from "./post.png";
+export { default as TotalSavesGraph } from "./total_saves_graph.png";
+export { default as ProfitAndLossGraph } from "./profit_and_loss_graph.png";
+export { default as EarningsIcon } from "./earnings_icon.png";
+export { default as ClientsIcon } from "./groud_icon.png";
