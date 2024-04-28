@@ -92,7 +92,7 @@ export const Menu = () => {
           ))}
         </div>
       </div>
-      <div className="mt-auto pb-12 text-gray-400">
+      <div className="mt-auto pb-8 text-gray-400">
         {/* copy right here */}
         <p>2023 © Lucas Marques </p>
         <p>Expire in 09/2023</p>

@@ -12,6 +12,7 @@ module.exports = {
         "customer-green": "var(--customer-green)",
         "primary-gray-light": "var(--primary-gray-light)",
         "primary-blue": "var(--primary-blue)",
+        "primary-orange": "var(--primary-orange)",
       },
     },
   },

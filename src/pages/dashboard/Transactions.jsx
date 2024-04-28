@@ -23,8 +23,8 @@ const TRANSACTIONS = [
 
 export const Transactions = () => {
   return (
-    <div className=" bg-primary-gray-light p-8 rounded-2xl">
-      <div className="font-bold text-lg mb-2">Your Transactions</div>
+    <div className=" bg-primary-gray-light p-8 text-primary-blue rounded-2xl">
+      <div className="font-bold text-lg mb-2 ">Your Transactions</div>
       <div className="flex-col flex gap-6 p-4">
         {TRANSACTIONS.map((transaction) => {
           return (

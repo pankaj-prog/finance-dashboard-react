@@ -23,7 +23,12 @@ export const Dashboard = () => {
     <main className="py-4 px-8 bg-primary-gray h-full overflow-auto">
       {/* dashboard header */}
       <header className="flex justify-between items-center px-4 py-2 ">
-        <div className="font-bold text-3xl">Dashboard</div>
+        <div className="font-bold text-3xl">
+          Dashboard
+          <p className="text-sm font-semibold text-gray-500 mt-2">
+            Dashboard / Overview
+          </p>
+        </div>
         <div className="relative mx-4">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center rounded-full">
             <MdOutlineSearch className="h-5 w-5" />
@@ -50,9 +55,9 @@ export const Dashboard = () => {
       </header>
       {/* dashboard content */}
       <div className="mt-4 gap-16 flex flex-wrap lg:flex-nowrap">
-        <div className="lg:w-2/3 flex flex-col gap-12">
+        <div className="flex grow flex-col gap-12">
           {/* left side */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[40rem]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
             <ProfitAndLoss />
             <Transfers />
             {BUSINESS_DETAILS.map((item) => (

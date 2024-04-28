@@ -8,11 +8,13 @@ const TRANSFERS = [
     name: "Alex Manda",
     time: "Today, 16:36",
     type: "credit", // Incoming money
+    amount: "$50",
   },
   {
     name: "Laura Santos",
     time: "Today, 08:49",
     type: "debit", // Outgoing money
+    amount: "$27",
   },
 ];
 
@@ -23,7 +25,7 @@ export const Transfers = () => {
       <div className="flex-col flex gap-6 p-4">
         {TRANSFERS.map((transfer) => {
           return (
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-4 items-center text-primary-blue">
               <img src={AvatarIcon} alt="Avatar" />
               <div>
                 <p className="font-semibold">
@@ -36,6 +38,14 @@ export const Transfers = () => {
                 </p>
                 <p className="text-sm">{transfer.time}</p>
               </div>
+              <span className="ml-auto bg-orange-500/20 py-1 px-2 font-semibold rounded-lg text-primary-orange">
+                {transfer.type === "credit"
+                  ? "+"
+                  : transfer.type === "debit"
+                  ? "-"
+                  : ""}
+                {transfer.amount}
+              </span>
             </div>
           );
         })}
